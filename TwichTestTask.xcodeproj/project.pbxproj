@@ -13,6 +13,18 @@
 		9E0ADA6E24AB28090077E26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6C24AB28090077E26D /* Main.storyboard */; };
 		9E0ADA7024AB280C0077E26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6F24AB280C0077E26D /* Assets.xcassets */; };
 		9E0ADA7324AB280C0077E26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0ADA7124AB280C0077E26D /* LaunchScreen.storyboard */; };
+		9E0ADA7C24AB28B30077E26D /* TopRatedEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA7B24AB28B30077E26D /* TopRatedEndPoint.swift */; };
+		9E0ADA7E24AB28C80077E26D /* NetworkManagerTopRated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA7D24AB28C80077E26D /* NetworkManagerTopRated.swift */; };
+		9E0ADA8024AB28E90077E26D /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA7F24AB28E90077E26D /* EndpointType.swift */; };
+		9E0ADA8224AB28F80077E26D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8124AB28F80077E26D /* Router.swift */; };
+		9E0ADA8424AB29090077E26D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8324AB29090077E26D /* HTTPMethod.swift */; };
+		9E0ADA8624AB29160077E26D /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8524AB29160077E26D /* HTTPTask.swift */; };
+		9E0ADA8824AB29230077E26D /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8724AB29230077E26D /* NetworkLogger.swift */; };
+		9E0ADA8A24AB293B0077E26D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8924AB293B0077E26D /* ParameterEncoding.swift */; };
+		9E0ADA8C24AB29500077E26D /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8B24AB29500077E26D /* URLParameterEncoder.swift */; };
+		9E0ADA8E24AB29610077E26D /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8D24AB29610077E26D /* JSONParameterEncoder.swift */; };
+		9E0ADA9424AB2DDB0077E26D /* TopRatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA9324AB2DDB0077E26D /* TopRatedModel.swift */; };
+		9E0ADA9624AB37760077E26D /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA9524AB37760077E26D /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		9E0ADA6F24AB280C0077E26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0ADA7224AB280C0077E26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0ADA7424AB280C0077E26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0ADA7B24AB28B30077E26D /* TopRatedEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedEndPoint.swift; sourceTree = "<group>"; };
+		9E0ADA7D24AB28C80077E26D /* NetworkManagerTopRated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTopRated.swift; sourceTree = "<group>"; };
+		9E0ADA7F24AB28E90077E26D /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		9E0ADA8124AB28F80077E26D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9E0ADA8324AB29090077E26D /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		9E0ADA8524AB29160077E26D /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		9E0ADA8724AB29230077E26D /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		9E0ADA8924AB293B0077E26D /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		9E0ADA8B24AB29500077E26D /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		9E0ADA8D24AB29610077E26D /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		9E0ADA9324AB2DDB0077E26D /* TopRatedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedModel.swift; sourceTree = "<group>"; };
+		9E0ADA9524AB37760077E26D /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,133 @@
 		9E0ADA6524AB28090077E26D /* TwichTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				9E0ADA6624AB28090077E26D /* AppDelegate.swift */,
-				9E0ADA6824AB28090077E26D /* SceneDelegate.swift */,
-				9E0ADA6A24AB28090077E26D /* ViewController.swift */,
-				9E0ADA6C24AB28090077E26D /* Main.storyboard */,
-				9E0ADA6F24AB280C0077E26D /* Assets.xcassets */,
-				9E0ADA7124AB280C0077E26D /* LaunchScreen.storyboard */,
-				9E0ADA7424AB280C0077E26D /* Info.plist */,
+				9E0ADA9724AB38430077E26D /* App */,
+				9E0ADA9E24AB392E0077E26D /* Support */,
+				9E0ADA9824AB38540077E26D /* TopRated */,
 			);
 			path = TwichTestTask;
+			sourceTree = "<group>";
+		};
+		9E0ADA7A24AB28850077E26D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA9224AB29A20077E26D /* EndPoint */,
+				9E0ADA9124AB299B0077E26D /* Manager */,
+				9E0ADA9024AB29850077E26D /* Service */,
+				9E0ADA8F24AB296F0077E26D /* Encoding */,
+			);
+			name = Network;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9E0ADA8F24AB296F0077E26D /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA8924AB293B0077E26D /* ParameterEncoding.swift */,
+				9E0ADA8B24AB29500077E26D /* URLParameterEncoder.swift */,
+				9E0ADA8D24AB29610077E26D /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		9E0ADA9024AB29850077E26D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA7F24AB28E90077E26D /* EndpointType.swift */,
+				9E0ADA8124AB28F80077E26D /* Router.swift */,
+				9E0ADA8324AB29090077E26D /* HTTPMethod.swift */,
+				9E0ADA8524AB29160077E26D /* HTTPTask.swift */,
+				9E0ADA8724AB29230077E26D /* NetworkLogger.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		9E0ADA9124AB299B0077E26D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA7D24AB28C80077E26D /* NetworkManagerTopRated.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		9E0ADA9224AB29A20077E26D /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA7B24AB28B30077E26D /* TopRatedEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		9E0ADA9724AB38430077E26D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA9D24AB38B30077E26D /* View */,
+				9E0ADA9C24AB38AA0077E26D /* Controller */,
+				9E0ADA7A24AB28850077E26D /* Network */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9E0ADA9824AB38540077E26D /* TopRated */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA9924AB385E0077E26D /* Model */,
+				9E0ADA9A24AB38640077E26D /* View */,
+				9E0ADA9B24AB38680077E26D /* Controller */,
+			);
+			name = TopRated;
+			sourceTree = "<group>";
+		};
+		9E0ADA9924AB385E0077E26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA9324AB2DDB0077E26D /* TopRatedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E0ADA9A24AB38640077E26D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA6C24AB28090077E26D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E0ADA9B24AB38680077E26D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA6A24AB28090077E26D /* ViewController.swift */,
+			);
+			name = Controller;
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E0ADA9C24AB38AA0077E26D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA6624AB28090077E26D /* AppDelegate.swift */,
+				9E0ADA6824AB28090077E26D /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E0ADA9D24AB38B30077E26D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA7124AB280C0077E26D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E0ADA9E24AB392E0077E26D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9E0ADA9524AB37760077E26D /* AlertService.swift */,
+				9E0ADA6F24AB280C0077E26D /* Assets.xcassets */,
+				9E0ADA7424AB280C0077E26D /* Info.plist */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +280,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0ADA8824AB29230077E26D /* NetworkLogger.swift in Sources */,
 				9E0ADA6B24AB28090077E26D /* ViewController.swift in Sources */,
+				9E0ADA7C24AB28B30077E26D /* TopRatedEndPoint.swift in Sources */,
+				9E0ADA8024AB28E90077E26D /* EndpointType.swift in Sources */,
+				9E0ADA9624AB37760077E26D /* AlertService.swift in Sources */,
+				9E0ADA9424AB2DDB0077E26D /* TopRatedModel.swift in Sources */,
+				9E0ADA8E24AB29610077E26D /* JSONParameterEncoder.swift in Sources */,
+				9E0ADA8C24AB29500077E26D /* URLParameterEncoder.swift in Sources */,
+				9E0ADA8624AB29160077E26D /* HTTPTask.swift in Sources */,
+				9E0ADA8A24AB293B0077E26D /* ParameterEncoding.swift in Sources */,
+				9E0ADA8224AB28F80077E26D /* Router.swift in Sources */,
+				9E0ADA8424AB29090077E26D /* HTTPMethod.swift in Sources */,
 				9E0ADA6724AB28090077E26D /* AppDelegate.swift in Sources */,
 				9E0ADA6924AB28090077E26D /* SceneDelegate.swift in Sources */,
+				9E0ADA7E24AB28C80077E26D /* NetworkManagerTopRated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.TwichTestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.TwichTestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
