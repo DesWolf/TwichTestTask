@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E0ADA6724AB28090077E26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6624AB28090077E26D /* AppDelegate.swift */; };
 		9E0ADA6924AB28090077E26D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6824AB28090077E26D /* SceneDelegate.swift */; };
-		9E0ADA6B24AB28090077E26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6A24AB28090077E26D /* ViewController.swift */; };
+		9E0ADA6B24AB28090077E26D /* TopRatedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6A24AB28090077E26D /* TopRatedTVC.swift */; };
 		9E0ADA6E24AB28090077E26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6C24AB28090077E26D /* Main.storyboard */; };
 		9E0ADA7024AB280C0077E26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0ADA6F24AB280C0077E26D /* Assets.xcassets */; };
 		9E0ADA7324AB280C0077E26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0ADA7124AB280C0077E26D /* LaunchScreen.storyboard */; };
@@ -25,13 +25,14 @@
 		9E0ADA8E24AB29610077E26D /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA8D24AB29610077E26D /* JSONParameterEncoder.swift */; };
 		9E0ADA9424AB2DDB0077E26D /* TopRatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA9324AB2DDB0077E26D /* TopRatedModel.swift */; };
 		9E0ADA9624AB37760077E26D /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA9524AB37760077E26D /* AlertService.swift */; };
+		9E0ADAA024AB3EB90077E26D /* TopRatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ADA9F24AB3EB90077E26D /* TopRatedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E0ADA6324AB28090077E26D /* TwichTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwichTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0ADA6624AB28090077E26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E0ADA6824AB28090077E26D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E0ADA6A24AB28090077E26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E0ADA6A24AB28090077E26D /* TopRatedTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedTVC.swift; sourceTree = "<group>"; };
 		9E0ADA6D24AB28090077E26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E0ADA6F24AB280C0077E26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0ADA7224AB280C0077E26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		9E0ADA8D24AB29610077E26D /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		9E0ADA9324AB2DDB0077E26D /* TopRatedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedModel.swift; sourceTree = "<group>"; };
 		9E0ADA9524AB37760077E26D /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		9E0ADA9F24AB3EB90077E26D /* TopRatedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				9E0ADA9324AB2DDB0077E26D /* TopRatedModel.swift */,
+				9E0ADA9F24AB3EB90077E26D /* TopRatedCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,7 +179,7 @@
 		9E0ADA9B24AB38680077E26D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9E0ADA6A24AB28090077E26D /* ViewController.swift */,
+				9E0ADA6A24AB28090077E26D /* TopRatedTVC.swift */,
 			);
 			name = Controller;
 			path = View;
@@ -281,7 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E0ADA8824AB29230077E26D /* NetworkLogger.swift in Sources */,
-				9E0ADA6B24AB28090077E26D /* ViewController.swift in Sources */,
+				9E0ADAA024AB3EB90077E26D /* TopRatedCell.swift in Sources */,
+				9E0ADA6B24AB28090077E26D /* TopRatedTVC.swift in Sources */,
 				9E0ADA7C24AB28B30077E26D /* TopRatedEndPoint.swift in Sources */,
 				9E0ADA8024AB28E90077E26D /* EndpointType.swift in Sources */,
 				9E0ADA9624AB37760077E26D /* AlertService.swift in Sources */,

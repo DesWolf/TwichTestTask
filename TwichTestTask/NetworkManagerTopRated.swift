@@ -52,7 +52,31 @@ struct NetworkManagerTopRated {
             }
         }
     }
-
+    
+    func fetchImage(url: String, completion: @escaping (_ message: UIImage?,_ error: String?)->()){
+        router.request(.image(url: url)) { data, response, error in
+            if error != nil {
+                completion(nil, "Please check your network connection.")
+            }
+            if let response = response as? HTTPURLResponse {
+                let result = self.handleNetworkResponse(response)
+                switch result {
+                case .success:
+                    guard let image = UIImage(data: data!) else {
+                        completion(nil, NetworkResponse.noData.rawValue)
+                        return
+                    }
+                    completion(image,nil)
+                case .failure(let networkFailureError):
+                    completion(nil, networkFailureError)
+                }
+            }
+        }
+    }
+    
+    
+    
+    
     fileprivate func handleNetworkResponse(_ response: HTTPURLResponse) -> Result<String>{
         switch response.statusCode {
         case 200...299: return .success

@@ -10,12 +10,18 @@ import Foundation
 
 public enum TwitchApi {
     case topRated
+    case image(url: String)
 }
 
 extension TwitchApi: EndPointType {
     
     var environmentBaseURL : String {
-        return "https://api.twitch.tv/"
+        switch self{
+        case .topRated:
+            return "https://api.twitch.tv/"
+        case .image(let url):
+                return url
+        }
     }
     
     var baseURL: URL {
@@ -27,6 +33,8 @@ extension TwitchApi: EndPointType {
         switch self {
         case .topRated:
             return "kraken/games/top"
+        case .image(_):
+            return ""
         }
     }
     
@@ -40,9 +48,10 @@ extension TwitchApi: EndPointType {
             return .requestParametersAndHeaders(bodyParameters: nil,
                                                 bodyEncoding: .urlEncoding,
                                                 urlParameters: nil,
-                                                additionHeaders: [ //"Content-Type":"application/json; charset=utf-8",
-                                                    "Client-ID": NetworkManagerTopRated.APIKey,
+                                                additionHeaders: [ "Client-ID": NetworkManagerTopRated.APIKey,
                                                     "Accept": "application/vnd.twitchtv.v5+json" ])
+        case .image(_):
+            return .request
         }
     }
     
