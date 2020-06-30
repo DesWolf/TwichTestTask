@@ -10,7 +10,7 @@ import Foundation
 
 struct ServerAnswer: Decodable {
     let _total: Int?
-    let top: TopRatedModel?
+    let top: [TopRatedModel]?
 }
 
 struct TopRatedModel: Decodable {

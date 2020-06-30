@@ -38,10 +38,10 @@ extension TwitchApi: EndPointType {
         switch self {
         case .topRated:
             return .requestParametersAndHeaders(bodyParameters: nil,
-                                                bodyEncoding: .jsonEncoding,
+                                                bodyEncoding: .urlEncoding,
                                                 urlParameters: nil,
                                                 additionHeaders: [ //"Content-Type":"application/json; charset=utf-8",
-                                                    "key": NetworkManagerTopRated.APIKey,
+                                                    "Client-ID": NetworkManagerTopRated.APIKey,
                                                     "Accept": "application/vnd.twitchtv.v5+json" ])
         }
     }
